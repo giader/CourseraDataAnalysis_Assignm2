@@ -10,7 +10,7 @@ The purpose of this assignment is to provide a predictive model able to identify
 
 Methods:
 
-Data Collection 
+Data Collection - 
 For our analysis we used the Samsung activity dataset available from the course website:
 https://spark-public.s3.amazonaws.com/dataanalysis/samsungData.rda
 These data are slightly processed to make them easier to load into R. Is possible also find the raw data here:

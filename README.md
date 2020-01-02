@@ -27,3 +27,9 @@ dataTrain <-with(samsungData, na.omit(samsungData[subject %in% c(1,3,5,6,7,8,11,
 -	from subjects 23,25,26,27,28,29,30 for the Testing Data with 2658 observations: 
 dataTest <-with(samsungData, na.omit(samsungData[subject %in% c(23,25,26,27,28,29,30),]))
 
+References:
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012.
+[2] by Uwe F Mayer forum post: https://class.coursera.org/dataanalysis-002/forum/thread?thread_id=1237
+[3] by Uwe F Mayer forum post: https://class.coursera.org/dataanalysis-002/forum/thread?thread_id=1198
+
+
